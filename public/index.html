@@ -3,10 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <title>Vitrine</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="./lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="./lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Josefin+Slab|Open+Sans|Ubuntu|Courgette|Dancing+Script|Satisfy|Raleway" rel="stylesheet">
+
 
 </head>
-<body >
+<body>
 
+
+<div class="header-vitrine">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="text-center">vitrine presented by coding blocks</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="container-7">
+        <div class="row">
+            <div class="col-lg-12" id="signup-heading">
+                <h1 style="color: white">register for being part of us
+                </h1>
+            </div>
+        </div>
+        <form id="sign-up">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                        <label for="user-name">First Name</label>
+                        <input type="text" class="form-control" placeholder="First Name" id="user-name">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Last Name" id="last-name">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" placeholder="youremail@email.com" id="email">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" placeholder="Create a Password" id="password">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="form-group">
+                        <label for="password-once">Confirm Password</label>
+                        <input type="password" class="form-control" placeholder="Confirm Your Password" id="password-once">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <button type="submit" class="btn btn-warning">SIGN UP</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12" id="container-5">
+        <div class="row">
+            <h1>log in to CB Vitrine portal</h1>
+        </div>
+
+        <form id="log-in">
+            <div class="row col-lg-8">
+                <div class="form-group">
+                    <label for="email-log">email</label>
+                    <input type="email" class="form-control" placeholder="Email" id="email-log">
+                </div>
+            </div>
+
+            <div class="row col-lg-8">
+                <div class="form-group">
+                    <label for="password-log">PASSWORD</label>
+                    <input type="password" class="form-control" placeholder="Password" id="password-log">
+                </div>
+            </div>
+
+            <div class="row col-lg-8">
+                <div class="form-group">
+                    <button type="submit" class="btn btn-info">LOG IN</button>
+                    <button type="button" class="btn btn-danger">FORGOT YOUR PASSWORD ?</button>
+                </div>
+
+            </div>
+
+            <div class="row col-lg-8">
+                <div class="form-group">
+                    <button type="button" class="btn btn-primary" style="background-color: #3b5998;">LOG IN WITH FACEBOOK</button>
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row text-center">
+            <p>copyright 2017. coding blocks</p>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="./lib/jquery/dist/jquery.min.js"></script>
 </body>
 </html>
