@@ -1,0 +1,21 @@
+{
+  "name": "bower",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "“aayusharora” <“aayush113002@gmail.com”>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/aayusharora/Vitrine",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
