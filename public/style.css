@@ -1,0 +1,91 @@
+body
+{
+    background-color: whitesmoke;
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.header-vitrine h1
+{
+    text-transform: capitalize;
+    font-family: 'Raleway',open-sans;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    padding-bottom:  1%;
+}
+
+#container-7
+{
+    background-color: #4d4d4d;
+    box-shadow: 0 0 7px;
+}
+form #log-in
+{
+    display: block;
+    margin: 0 auto;
+}
+#signup-heading h1,#container-5 h1
+{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: 'Raleway', 'Satisfy', 'Dancing Script', cursive;
+    letter-spacing: 1.2px;
+    word-spacing: 1.2px;
+    /*color: whitesmoke;*/
+}
+#sign-up,#log-in
+{
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.form-control
+{
+    border-radius: 1px;
+    font-size: 18px;
+}
+button
+{
+    font-family: 'Raleway', 'Satisfy', 'Dancing Script', cursive;
+}
+input[placeholder]
+{
+    font-family: 'Raleway', 'Satisfy', 'Dancing Script', cursive;
+    font-size: 15px;
+}
+.row
+{
+    line-height: 3;
+}
+#sign-up label
+{
+    text-transform: capitalize;
+    margin-bottom: -6px;
+    font-family: 'Raleway', 'Satisfy', 'Dancing Script', cursive;
+    padding-bottom: 0;
+    color: white;
+    letter-spacing: 1.2px;
+}
+/*#container-5 h1
+{
+    font-family: 'Raleway', 'Satisfy', 'Dancing Script', cursive;
+    color: #4d4d4d;
+    font-weight: 300;
+    font-size: 36px;
+    text-transform: capitalize;
+    !*margin-top: 10%;*!
+}*/
+#log-in label
+{
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: -0px;
+}
+footer
+{
+    font-family: ubuntu;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+}

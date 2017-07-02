@@ -6,10 +6,10 @@ Node.js jQuery HTML CSS
 - `npm install`
 - `bower install`
 - `npm install gulp -g`
-- `npm install gulp`
 
 
 ### To serve the files
 
  - `npm run start`
 
+### Now server has been started at port number 8081
