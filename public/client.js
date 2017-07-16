@@ -10,9 +10,9 @@ $(function() {
 
 
     btn.click(function () {
-        batch_id = batch_id.val();
-        access_token = access_token.val();
-        ajaxCall(batch_id, access_token);
+        var batchId = batch_id.val();
+        var  batchAccesstoken = access_token.val();
+        ajaxCall(batchId, batchAccesstoken);
     });
 
 
