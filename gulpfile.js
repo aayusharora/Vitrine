@@ -19,4 +19,16 @@
                 verbose: true
             }));
     });
+
+    // gulp.task('inject', function() {
+    //     var wiredep = require('wiredap').stream;
+    //     var options = {
+    //         bowerJson: require('./bower.json'),
+    //         directory:'./public/lib'
+    //     };
+    //
+    //     return gulp.src('public/*.html')
+    //         .pipe(wiredep(options))
+    //         .pipe(gulp.dest('.src/views'))
+    // });
 })();
