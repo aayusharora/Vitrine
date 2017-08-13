@@ -1,0 +1,38 @@
+.animate_access_card {
+    animation-name: hideAccessToken;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes hideAccessToken {
+    from {
+        right:0;
+    }
+    to {
+       right: 100%;
+
+   }
+}
+
+.access_login_card {
+    display: none;
+}
+
+.animate_login_card {
+    animation-name: showLoginCard;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+    left: 100%;
+    display: block;
+}
+
+@keyframes showLoginCard {
+    from {
+        left: 100%;
+    }
+    to {
+        left:0;
+    }
+}
